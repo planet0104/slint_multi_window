@@ -1,0 +1,13 @@
+[package]
+name = "slint_multi_window"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+slint = "1.2.2"
+tray-icon = "0.9.0"
+tao = "0.22.2"
+image = { version = "0.24.7", default-features = false, features = ["png"]}
+anyhow = "1"
+ipc-channel = "0.17.0"
+serde = { version = "1.0", features = ["derive"] }
